@@ -563,6 +563,79 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/* 20/10/2023 стили для system_monitoring2 */
 .background_light_green {
-    background-color: #e0ffde;
+    /* background-color: #e0ffde; */
+    background-color: #162a46;
+}
+.background_header {
+    background-color: rgb(255, 255, 255);
+}
+.header_system_monitoring2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px; */
+}
+.header_system_monitoring2 img {
+    width: 413px;
+    height: 49px;
+}
+.heading_system_monitoring2__heading {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: -19px;
+}
+.site_width {
+    max-width: 1146px;
+    min-width: 1146px;
+}
+.center_blocks {
+    display: flex;
+    justify-content: center;
+}
+.header_system_monitoring2_location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_system_monitoring2_ul li {
+    list-style-type: none;
+}
+.header_system_monitoring2_ul_link {
+    text-transform: uppercase;
+    font-size: 13px;
+    /* font-family: 'Itel', sans-serif; */
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.header_system_monitoring2_ul {
+    display: flex;
+    gap: 20px;
+}
+.system_monitoring2_text_one,
+.system_monitoring2_text_two {
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.system_monitoring2_text_two_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.system_monitoring2_text_one_p {
+    max-width: 836px;
+    min-width: 836px;
+}
+.system_monitoring2_text_one_p_container {
+    display: flex;
+    justify-content: flex-end;
 }
