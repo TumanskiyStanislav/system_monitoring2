@@ -589,8 +589,11 @@ body {
 .heading_system_monitoring2__heading {
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 45px;
-    margin-bottom: -19px;
+    /* font-size: 45px; */
+    font-size: 54.5px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
 }
 .site_width {
     max-width: 1146px;
@@ -632,10 +635,18 @@ body {
     gap: 28px;
 }
 .system_monitoring2_text_one_p {
-    max-width: 836px;
-    min-width: 836px;
+    /* max-width: 836px; */
+    max-width: 890px;
+    /* min-width: 836px; */
+    min-width: 890px;
+    /* margin-bottom: -92px; */
+    position: absolute;
+    top: 7px;
+    line-height: 140%;
+    font-size: 33px;
 }
 .system_monitoring2_text_one_p_container {
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
